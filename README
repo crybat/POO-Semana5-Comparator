@@ -1,0 +1,11 @@
+Semana 5 de POO
+
+Exercício de Ordenação:
+
+
+Indique como poderia ordenar por ordem alfabética de nome um conjunto de alunos
+sabendo que existem na biblioteca Collections os métodos:
+static void sort(List<T> list, Comparator<T>) e static void sort(List<T> list).
+Qual será melhor usar neste caso?
+
+Nota: List<T> é um interface implementado pela classe ArrayList<T>.
