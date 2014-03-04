@@ -24,7 +24,7 @@ public class Data implements Comparable<Data> {
     @Override
     public int compareTo(Data outraData)
     {
-        return data.compareTo(data);
+        return data.compareTo(outraData.getData());
     }
 
 }

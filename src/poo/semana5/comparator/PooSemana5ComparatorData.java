@@ -23,9 +23,9 @@ public class PooSemana5ComparatorData {
         Date date = calendar.getTime();
         List<Data> ld = new ArrayList<>();
         ld.add(new Data(date));
-        calendar.add(Calendar.HOUR, -1);
+        calendar.add(Calendar.DAY_OF_MONTH, -1);
         ld.add(new Data(calendar.getTime()));
-        calendar.add(Calendar.HOUR, 2);
+        calendar.add(Calendar.DAY_OF_MONTH, 2);
         ld.add(new Data(calendar.getTime()));
         Collections.sort(ld);
 
